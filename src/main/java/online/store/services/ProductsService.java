@@ -35,4 +35,8 @@ public class ProductsService {
     public List<Product> getDealsOfTheDay(int atMostNumberOfProducts){
     	return productRepository.findAtMostNumberOfProducts(atMostNumberOfProducts);
     }
+    
+    public List<Product> getProductsByCategory(String productCategory) {
+        return productRepository.findByCategory(productCategory);
+    }
 }
