@@ -3,6 +3,8 @@ package online.store.controllers;
 import java.util.HashSet;
 import java.util.Set;
 
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
@@ -25,9 +27,18 @@ public class CheckoutController {
 	}
 	
 	@PostMapping("/checkout")
-	public String checkout(@RequestBody CheckoutRequest checkoutRequest) {
+	public ResponseEntity<String> checkout(@RequestBody CheckoutRequest checkoutRequest) {
 		Set<Order> orders = new HashSet<>(checkoutRequest.getProducts().size());
-		
+		if(isNullOrBlank(checkoutRequest.getCreditCard())) {
+			return new ResponseEntity<>("Credit card infromation is missing", HttpStatus.PAYMENT_REQUIRED);
+		}
+		if (isNullOrBlank(checkoutRequest.getFirstName())) {
+	        return new ResponseEntity<>("First name is missing", HttpStatus.BAD_REQUEST);
+	    }
+	    if (isNullOrBlank(checkoutRequest.getLastName())) {
+	        return new ResponseEntity<>("Last name is missing", HttpStatus.BAD_REQUEST);
+	    }
+	    
 		for (CheckoutRequest.ProductInfo productInfo : checkoutRequest.getProducts()) {
 			Order order = new Order(checkoutRequest.getFirstName(),
 					checkoutRequest.getLastName(),
@@ -39,8 +50,11 @@ public class CheckoutController {
 			orders.add(order);
 		}
 		ordersService.placeOrders(orders);
-		return "success";
+		return new ResponseEntity<>("success", HttpStatus.OK);
 	}
 	
+	private static boolean isNullOrBlank(String input) {
+	    return input == null || input.isEmpty() || input.trim().length() == 0;
+	}
 	
 }
