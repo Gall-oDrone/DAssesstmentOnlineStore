@@ -1,8 +1,11 @@
 package online.store.services;
 
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
 import online.store.repositories.ProductCategoryRepository;
 import online.store.repositories.ProductRepository;
-import org.springframework.stereotype.Service;
 
 /**
  * @author Michael Pogrebinsky - www.topdeveloperacademy.com
@@ -17,4 +20,7 @@ public class ProductsService {
         this.productRepository = productRepository;
         this.productCategoryRepository = productCategoryRepository;
     }
+    
+    public List<String> getAllSupportedCategories(){
+		return null;}
 }

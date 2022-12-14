@@ -1,10 +1,12 @@
 package online.store.repositories;
 
-import online.store.model.ProductCategory;
+import java.util.List;
+import java.util.stream.Collectors;
+
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import java.util.List;
+import online.store.model.ProductCategory;
 
 /**
  * @author Michael Pogrebinsky - www.topdeveloperacademy.com
@@ -19,4 +21,11 @@ public interface ProductCategoryRepository extends JpaRepository<ProductCategory
      * Returns all the available categories of products in our online store
      */
     List<ProductCategory> findAll();
+    
+    public List<String> getAllSupportedCategories() {
+        return productCategoryRepository.findAll()
+                .stream()
+                .map(productCategory -> productCategory.getCategory())
+                .collect(Collectors.toList());
+    }
 }
