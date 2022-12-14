@@ -34,7 +34,10 @@ public class HomepageController {
 	
 	@GetMapping("/products")
     public ProductsWrapper getProductsForCategory(
-            @RequestParam(name = "category") String category) {
-            return new ProductsWrapper(productService.getProductsByCategory(category));
+            @RequestParam(name = "category", required = false) String category) {
+        if (category != null && !category.isEmpty()) {
+        	return new ProductsWrapper(productService.getProductsByCategory(category));
+        }
+		return new ProductsWrapper(productService.getProductsByCategory(category));
     }
 }
