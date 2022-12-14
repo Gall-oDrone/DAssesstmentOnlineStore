@@ -1,9 +1,11 @@
 package online.store.services;
 
 import java.util.List;
+import java.util.stream.Collectors;
 
 import org.springframework.stereotype.Service;
 
+import online.store.model.Product;
 import online.store.repositories.ProductCategoryRepository;
 import online.store.repositories.ProductRepository;
 
@@ -21,6 +23,16 @@ public class ProductsService {
         this.productCategoryRepository = productCategoryRepository;
     }
     
-    public List<String> getAllSupportedCategories(){
-		return null;}
+    // Returns all available categories listed in the database
+    public List<String> getAllSupportedCategories() {
+        return productCategoryRepository.findAll()
+                .stream()
+                .map(productCategory -> productCategory.getCategory())
+                .collect(Collectors.toList());
+    }
+    
+    // Returns at most n products from the Products table
+    public List<Product> getDealsOfTheDay(int atMostNumberOfProducts){
+    	return productRepository.findAtMostNumberOfProducts(atMostNumberOfProducts);
+    }
 }
