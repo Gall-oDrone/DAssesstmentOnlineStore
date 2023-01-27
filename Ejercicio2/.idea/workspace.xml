@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="676dc56a-036d-43d1-9449-c5005e0455ab" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/springboot-online store/src/test/java/online/store/services/junit5/CreditCardValidationServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-online store" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-online store" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-online store/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-online store/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-online store/.settings/org.eclipse.core.resources.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-online store/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-online store/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-online store/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-online store/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-online store/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-online store/src/main/java/online/store/controllers/CheckoutController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-online store/src/main/java/online/store/controllers/CheckoutController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-online store/src/main/java/online/store/controllers/HomepageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-online store/src/main/java/online/store/controllers/HomepageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-online store/src/main/java/online/store/model/CheckoutRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-online store/src/main/java/online/store/model/CheckoutRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-online store/src/main/java/online/store/model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-online store/src/main/java/online/store/model/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-online store/src/main/java/online/store/services/CreditCardValidationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-online store/src/main/java/online/store/services/CreditCardValidationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-online store/src/main/java/online/store/services/OrdersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-online store/src/main/java/online/store/services/OrdersService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-online store/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-online store/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-online store/target/classes/META-INF/maven/top-developer-academy/spring-boot-online-store-lab/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-online store/target/classes/META-INF/maven/top-developer-academy/spring-boot-online-store-lab/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-online store/target/classes/META-INF/maven/top-developer-academy/spring-boot-online-store-lab/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-online store/target/classes/META-INF/maven/top-developer-academy/spring-boot-online-store-lab/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-online store/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-online store/target/classes/online/store/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-online store/target/classes/online/store/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-online store/target/classes/online/store/controllers/CheckoutController.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-online store/target/classes/online/store/controllers/CheckoutController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-online store/target/classes/online/store/controllers/GlobalControllerExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-online store/target/classes/online/store/controllers/GlobalControllerExceptionHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-online store/target/classes/online/store/controllers/HomepageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-online store/target/classes/online/store/controllers/HomepageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-online store/target/classes/online/store/exceptions/CreditCardValidationException.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-online store/target/classes/online/store/exceptions/CreditCardValidationException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-online store/target/classes/online/store/model/CheckoutRequest$ProductInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-online store/target/classes/online/store/model/CheckoutRequest$ProductInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-online store/target/classes/online/store/model/CheckoutRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-online store/target/classes/online/store/model/CheckoutRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-online store/target/classes/online/store/model/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-online store/target/classes/online/store/model/Order.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-online store/target/classes/online/store/model/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-online store/target/classes/online/store/model/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-online store/target/classes/online/store/model/ProductCategory.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-online store/target/classes/online/store/model/ProductCategory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-online store/target/classes/online/store/model/wrappers/ProductsWrapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-online store/target/classes/online/store/model/wrappers/ProductsWrapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-online store/target/classes/online/store/repositories/OrderRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-online store/target/classes/online/store/repositories/OrderRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-online store/target/classes/online/store/repositories/ProductCategoryRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-online store/target/classes/online/store/repositories/ProductCategoryRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-online store/target/classes/online/store/repositories/ProductRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-online store/target/classes/online/store/repositories/ProductRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-online store/target/classes/online/store/services/CreditCardValidationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-online store/target/classes/online/store/services/CreditCardValidationService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-online store/target/classes/online/store/services/OrdersService.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-online store/target/classes/online/store/services/OrdersService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-online store/target/classes/online/store/services/ProductsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-online store/target/classes/online/store/services/ProductsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise4/server" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise4/server" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise4/stream-server" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise4/stream-server" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot-Testing/intro-junit5" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot-Testing/intro-junit5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot-Testing/tb2g-testing-spring" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot-Testing/tb2g-testing-spring" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot-Testing/tdd-by-example" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot-Testing/tdd-by-example" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot-Testing/testing-java-junit5" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot-Testing/testing-java-junit5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot-Testing/testing-java-junit5-section-6" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot-Testing/testing-java-junit5-section-6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot-Testing/testing-junit5-mockito" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot-Testing/testing-junit5-mockito" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2KsOHO14881DhjalLOU6Z9HhDE4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/dgallovalenzuela/Documents/Github/Academy Java/Exercise 2"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="676dc56a-036d-43d1-9449-c5005e0455ab" name="Changes" comment="" />
+      <created>1674759734279</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674759734279</updated>
+    </task>
+    <servers />
+  </component>
+</project>
